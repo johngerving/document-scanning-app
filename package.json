@@ -1,0 +1,18 @@
+{
+  "name": "document-scanning-app",
+  "version": "1.0.0",
+  "description": "An app for automatically naming and uploading documents to Laserfiche.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Gerving",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.0.0"
+  },
+  "dependencies": {
+    "electron-unhandled": "^4.0.1"
+  }
+}
