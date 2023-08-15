@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text"],
+button {
+  display: inline-block;
+  height: 35px;
+  padding: 0 5px;
+  font-size: 1rem;
+  border: 1px solid rgba(128, 128, 128, 1);
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  min-width: 500px;
+}
+
+input[type="text"]:focus {
+  outline: 1px solid rgb(75, 138, 255);
+}
+
+button {
+  display: inline-block;
+  background-color: rgb(251, 251, 251);
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 5px;
+  min-width: 100px;
+  transition: background-color 0.15s linear;
+}
+
+button:hover {
+  background-color: rgb(244, 244, 244);
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(251, 251, 251);
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 20px auto;
+}
