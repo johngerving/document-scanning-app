@@ -8,11 +8,23 @@
     <title>Hello from Electron renderer!</title>
   </head>
   <body>
+    <!-- Form:
+      File paths
+      File prefix
+      Laserfiche file path
+     -->
     <h1>Document Scanning App</h1>
     <form>
-      <input type="text" id="filePath" />
-      <button type="button" id="openFile">Open a File</button>
-      <button id="submit" type="submit">Submit</button>
+      <label for="filePath">File Paths</label>
+      <div class="row">
+        <input type="text" name="filePath" id="filePath" />
+        <button type="button" id="openFile">Open a File</button>
+      </div>
+      <label for="filePrefix">File Prefix</label>
+      <input type="text" name="filePrefix" id="filePrefix" />
+      <label for="laserfichePath">Laserfiche File Path</label>
+      <input type="text" name="laserfichePath" id="laserfichePath" />
+      <button id="upload" type="submit">Upload</button>
     </form>
     <script src="./renderer.js"></script>
   </body>
